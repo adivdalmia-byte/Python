@@ -3,7 +3,9 @@ y=60
 z=40
 
 temp = x 
-y = temp
-z = y
-x = z
-print (x,y,z)
+x = y
+y = z 
+z = temp
+print(x)
+print(y)
+print(z)
