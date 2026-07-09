@@ -1,10 +1,14 @@
-v =("bill amount" )
-s =("amount payed")
-c =("s - v")
+def calculate(v,s):
+     return(v-s)
+    
 
-if(v<s,):
-     def total_calc(v,s):
-          print(c)
+s =float(input("enter the bill amount:" ))
+v =float(input("enter the amount payed:"))
+
+
+if v >= s:
+     print(calculate(v,s))
+
 else:
      print("not possible")
     
